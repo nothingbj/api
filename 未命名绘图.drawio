@@ -1,9 +1,186 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="第 1 页" id="xHaIYChPytmuc8yWxFNC">
-    <mxGraphModel>
+    <mxGraphModel dx="2269" dy="1274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-1" value="客户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="1444" as="geometry" />
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-2" value="手机银行前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="359" y="20" width="150" height="1444" as="geometry" />
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-3" value="渠道系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="633" y="20" width="150" height="1444" as="geometry" />
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-4" value="手机银行服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="927" y="20" width="150" height="1444" as="geometry" />
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-5" value="信用卡系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1127" y="20" width="150" height="1444" as="geometry" />
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-6" value="数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1327" y="20" width="150" height="1444" as="geometry" />
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-7" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="303" width="1329" height="1066" as="geometry" />
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-8" value="[是新用户]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="Xypu2j_FaSmXaDBjdLLU-7">
+          <mxGeometry x="30" width="1299" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-9" value="[是信用卡客户/双身份客户]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="Xypu2j_FaSmXaDBjdLLU-7">
+          <mxGeometry y="155" width="1329" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-10" value="输入手机号" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-1" target="Xypu2j_FaSmXaDBjdLLU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="273" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-11" value="调用checkUserStatus(手机号)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-2" target="Xypu2j_FaSmXaDBjdLLU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-12" value="查询用户类型" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-3" target="Xypu2j_FaSmXaDBjdLLU-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1064" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-13" value="返回用户状态" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-6" target="Xypu2j_FaSmXaDBjdLLU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1067" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-14" value="返回&quot;新用户&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-3" target="Xypu2j_FaSmXaDBjdLLU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="583" y="381" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-15" value="执行标准注册流程" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-2" target="Xypu2j_FaSmXaDBjdLLU-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="276" y="433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-16" value="保存&quot;渠道标志=信用卡客户&quot;" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-3" target="Xypu2j_FaSmXaDBjdLLU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="759" y="531" />
+              <mxPoint x="759" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-17" value="返回&quot;需数据迁移授权&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-3" target="Xypu2j_FaSmXaDBjdLLU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="583" y="613" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-18" value="弹窗授权请求(&quot;是否迁移信用卡数据?&quot;)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-2" target="Xypu2j_FaSmXaDBjdLLU-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="276" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-19" value="选择同意/拒绝" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-1" target="Xypu2j_FaSmXaDBjdLLU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="273" y="717" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-20" value="submitAuthorization(授权结果)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-2" target="Xypu2j_FaSmXaDBjdLLU-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="727" y="769" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-21" value="saveAuthFlag(手机号, 授权标识)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-4" target="Xypu2j_FaSmXaDBjdLLU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="867" y="821" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-22" value="记录授权标识" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-3" target="Xypu2j_FaSmXaDBjdLLU-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1064" y="873" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-23" value="更新迁移状态=进行中" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-3" target="Xypu2j_FaSmXaDBjdLLU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="759" y="925" />
+              <mxPoint x="759" y="955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-24" value="调用migrateData(手机号)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-3" target="Xypu2j_FaSmXaDBjdLLU-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="964" y="1007" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-25" value="数据脱敏处理" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-5" target="Xypu2j_FaSmXaDBjdLLU-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1253" y="1059" />
+              <mxPoint x="1253" y="1089" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-26" value="返回迁移结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-5" target="Xypu2j_FaSmXaDBjdLLU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="967" y="1141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-27" value="更新迁移状态=完成/失败" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-3" target="Xypu2j_FaSmXaDBjdLLU-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1064" y="1193" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-28" value="通知最终状态" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-3" target="Xypu2j_FaSmXaDBjdLLU-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="864" y="1245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-29" value="显示迁移结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-4" target="Xypu2j_FaSmXaDBjdLLU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="1297" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xypu2j_FaSmXaDBjdLLU-30" value="展示成功/失败页面" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="Xypu2j_FaSmXaDBjdLLU-2" target="Xypu2j_FaSmXaDBjdLLU-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="276" y="1349" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
